@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: purple;
+            text-align: center;
+        }
+        img {
+            margin: 10% 1em 1em 1em;
+            width: 200px;
+            height: 200px;
+        }
+        button.left {
+            position: absolute; left: 0;
+            border: 1px solid white;
+            background-color: purple;
+            color: white;
+        }
+        button:not(.left) {
+            position: absolute;
+            border: 1px solid white;
+            background-color: purple;
+            color: white;
+        }
+        .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        .navbar li {
+        float: left;
+        }
+
+        .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        .navbar li a:hover:not(.active) {
+        background-color: #111;
+        }
+
+        .navbar .active {
+        background-color: #04AA6D;
+        }
+    </style>
+</head>
+<body>
+    <button style="right: 9em;">Home</button>
+    <button style="right: 5em;">About</button>
+    <button style="right: 0;">Contact</button>
+    <button class="left">Speedify</button>
+    <br>
+    <h1><i>Good luck on your endevours!</i></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut rutrum est. Fusce ornare sapien non nibh ultricies, vitae efficitur ligula sagittis. Donec quis vehicula dui. Nunc odio mi, facilisis sed pulvinar blandit, laoreet nec nulla. Morbi placerat commodo tincidunt. Nunc tristique lorem nec libero faucibus malesuada. Phasellus porta tortor non eleifend tristique.</p>
+    <img src="galaxy.jpg" style="border-radius: 100%;">
+    <img src="galaxy.jpg" style="border-radius: 25%;">
+</body>
+</html>
